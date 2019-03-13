@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "futura", sans-serif;
+}
+
+h1{
+	font-size: 64px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 56px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 20px;
+	color: #32557A;
+}
+
+li a:hover{
+	color: #84B9F2;
+	transition: 0.3s;
+}
+
+.txt-fs{
+	font-size: 27px;
+}
+
+#brand_foursleep{
+	height: 100px;
+}
+
+.spacing{
+	margin-top: 40px;
+}
+
+.header{
+	position: absolute;
+}
+
+.header a{
+	color: white;
+}
+
+.header .nav-item{
+	margin-top: 45px;
+}
+
+.hero_fullscreen{
+	z-index: -1;
+	width: 100%;
+	background-image: url("../images/bubo_story.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero_content{
+	margin-top: 125px;
+	color: white;
+}
+
+.fullscreen{
+	padding-top: 50px;
+	height: 100vh;
+}
+
+#intro_fullscreen{
+	background-image: url("../images/bg_intro.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#intro_fullscreen section{
+	padding-top: 200px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.white{
+	color: white;
+}
+
+.blue{
+	color: #84B9F2;
+}
+
+.darkblue{
+	color: #32557A;
+}
+
+video{
+	width: 100%;
+}
+
+.media{
+	background-color: #1b1b1b;
+}
+
+#interaction{
+	background-image: url("../images/bubo_interaction.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#interaction img{
+	max-height: 100px;
+	max-width: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+#int_wifi{
+	max-height: 130px !important;
+	max-width: 130px !important;
+}
+
+.carousel-inner{
+	height: 72vh;
+}
+
+#faq label{
+	font-size: 20px;
+	color: #84B9F2;
+	font-weight: bold;
+}
+
+.bg-grey{
+	background-color: #E2E2E2;
+}
+
+footer{
+	padding: 15px;
+}
+
+footer img{
+	height: 75px;
+}
+
+#request{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	padding: 10px 20px;
+	background-color: #754927;
+	z-index: 9;
+	text-decoration: none;
+	color: #84B9F2;
+	border-radius: 5px;
+	border: 2px solid white;
+	trabsition: .3s;
+}
+
+#request:hover{
+	transition: .3s;
+	background-color: #32557A;
+}
+
+.submit{
+	transition: .3s;
+	background-color: #32557A;
+	border: none;
+	color: white;
+}
+
+.submit:hover{
+	transition: .3s;
+	background-color: #84B9F2;
+	white: white;
+}
+
+#why img{
+	height: 125px;
+}
+
+iframe{
+	width: 100%;
+	height: 650px;
+}
